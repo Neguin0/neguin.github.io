@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Jogo de Pesca!</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div class="container">
+		<div>
+			<p class="title">Pescaria clique em <b>PESCAR</b> para pegar seu peixe!</p>
+			<p id="alerta"></p>
+		</div>
+
+		<div class="boxes">
+
+			<div class="box-pescaria">
+				<p id="pescou">Você pegou uma:</p>
+				<p id="peixe"></p>
+			</div>
+
+			<div class="box-meus-peixes">
+				<p class="carteira">Carteira: 
+					<span id="carteira"><b>R$ 0,00</b></span>
+				</p>
+				<p id="text-mp">Seus peixes:</p>
+				<p id="mp"></p>
+			</div>
+
+		</div>
+		<div class="buttons">
+			<button class="botao" id="botao-pescar">Pescar</button>
+			<button class="botao" id="botao-vender">Vender Peixes</button>
+		</div>
+	</div>
+	<script type="module" src="main.js"></script>
+</body>
+
+</html>

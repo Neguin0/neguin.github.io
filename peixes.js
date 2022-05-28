@@ -1,0 +1,1 @@
+export default ["Tucunaré", "Tilápia", "Tubarana", "Carpa", "Tubarao", "Mandi", "Dourado"]
